@@ -1,3 +1,10 @@
 {
-    "test":"test upload"
+    "name":"Test extension",
+    "description":"Test extension for google chrome",
+    "version":"1.0.0",
+    "manifest_version":3,
+    "action": {
+        "default_popup":"test.html",
+        "default_icon":"test.png"
+    }
 }
